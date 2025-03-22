@@ -11,7 +11,7 @@ Provides a text based interface for controlling the radio, with these feature:
 
 
 Setup:  
-• Install VLC media player (https://www.videolan.org/vlc/)  
+• Install **VLC media player** (https://www.videolan.org/vlc/)  
 • May already be installed in some OS's (e.g. Linux)  
 
 Then:
@@ -20,9 +20,10 @@ Then:
         • Install the vlc python library via this command line: pip install python-vlc
     • Linux or other similar OS:
         • Install the vlc python library via this command line: sudo apt-install python3-vlc
-
-• Then just run the code file named radio.py and you should be up and running  
-• Make sure to have both the radio.py and stations.py files in the same folder (as radio is dependant on stations)
+        
+• Download both files in the **Internet Radio** folder
+• Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)
+• Then just run the code file named **radio.py** and you should be up and running
 
 Note:  
 • Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
