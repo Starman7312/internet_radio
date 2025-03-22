@@ -2,8 +2,10 @@
 An internet-based radio player, using the VLC framework to stream the radio
 
 Setup:  
-    • Install VLC media player (https://www.videolan.org/vlc/)  
-    • May already be installed in some OS's (e.g. Linux)
+• Install VLC media player (https://www.videolan.org/vlc/)  
+• May already be installed in some OS's (e.g. Linux)  
+
+Then:
 
     • Windows:
         • Install the vlc python library via this command line: pip install python-vlc
