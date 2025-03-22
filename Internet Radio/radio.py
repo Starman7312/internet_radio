@@ -83,7 +83,7 @@ class radio:
                 self.connect
 
                 # Queries user to check if playing
-                playing = input('Is it playing? (yes/no)')
+                playing = input('Is it playing? (yes/no): ')
 
                 if playing.lower() not in ['yes', 'y']:
                     print()
