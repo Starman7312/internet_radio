@@ -21,13 +21,14 @@ Then:
     • Linux or other similar OS:
         • Install the vlc python library via this command line: sudo apt-install python3-vlc
         
-• Download both files in the **Internet Radio** folder:
+• Download both files in the **Internet Radio** folder:  
 
-    • If using git:
-       •Ru this via command line: git clone https://github.com/Starman7312/internet_radio   
-    Otherwise, manually download:  
-        • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
-        • Then just run the code file named **radio.py** and you should be up and running
+
+• If using git:
+   •Run this via command line: *git clone https://github.com/Starman7312/internet_radio*  
+Otherwise, manually download:  
+    • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
+    • Then just run the code file named **radio.py** and you should be up and running
 
 Note:  
 • Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
