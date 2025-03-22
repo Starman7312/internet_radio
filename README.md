@@ -1,7 +1,7 @@
 # internet_radio
 An internet-streaming based radio player, using the VLC framework to stream the radio  
 
-Provide a text based interface for controlling the radio, with these feature:  
+Provides a text based interface for controlling the radio, with these feature:  
 
     • tune - Tune to known station (runs by default on boot of radio.py)
     • stop - Stops the current playback
