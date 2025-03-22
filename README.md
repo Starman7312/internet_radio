@@ -1,5 +1,14 @@
 # internet_radio
-An internet-based radio player, using the VLC framework to stream the radio
+An internet-streaming based radio player, using the VLC framework to stream the radio  
+
+Provide a text based interface for controlling the radio, with these feature:  
+
+    • tune - Tune to known station (runs by default on boot of radio.py)
+    • stop - Stops the current playback
+    • resume - resumes the current playback (live, not from stop point)
+    • volume - allows for radio volume control (application volume level, not speakers)
+    • exit - exits playback
+
 
 Setup:  
 • Install VLC media player (https://www.videolan.org/vlc/)  
@@ -13,7 +22,8 @@ Then:
         • Install the vlc python library via this command line: sudo apt-install python3-vlc
 
 • Then just run the code file named radio.py and you should be up and running
-  
-  Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
-  Pages such as this are great for finding the radio stations URL's: https://en.everybodywiki.com/List_of_BBC_radio_stream_URLs  
-  Or you can often get them directly from the station or a search for something like: radio stream URL for StationXXXX  
+
+Note:  
+• Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
+• Pages such as this are great for finding the radio stations URL's: https://en.everybodywiki.com/List_of_BBC_radio_stream_URLs  
+• Or you can often get them directly from the station or a search for something like: radio stream URL for StationXXXX  
