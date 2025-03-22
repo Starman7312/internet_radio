@@ -21,7 +21,8 @@ Then:
     • Linux or other similar OS:
         • Install the vlc python library via this command line: sudo apt-install python3-vlc
 
-• Then just run the code file named radio.py and you should be up and running
+• Then just run the code file named radio.py and you should be up and running  
+• Make sure to have both the radio.py and stations.py files in the same folder (as radio is dependant on stations)
 
 Note:  
 • Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
