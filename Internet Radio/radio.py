@@ -112,6 +112,9 @@ class radio:
         Returns:
             Boolean: True if radio should be tuned again
         """
+        # Initialises volume to 100
+        self.set_volume(100)
+
         self.attempt_connect
         try:
             command = ''
