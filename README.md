@@ -80,7 +80,7 @@ Radio.bat
 - E.g. Linux:
 >
 ```
-cd "Downloads/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
+cd "Downloads/internet_radio/Run Files/Windows"
 Radio.sh
 ```
 >   
