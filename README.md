@@ -19,13 +19,13 @@ Provides a text based interface for controlling the radio, with these feature:
 # Automatic Setup:  
 
 ## Windows Install:  
-> Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/9addb45271b1ce3dac4310aadd65fc59991fed74/Automatic%20Installers/Windows)
+> Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/02032895425020bbc481dde72ef0498992a3021c/Automatic%20Installers/Windows)
 > 
 > Recommended install file is **windows_installer.vbs** (as other files are more complex to download / run)  
 > If you recieve any warnings while trying to download and/or run the install files, select keep (they're safe) 
 
 ## Linux (or similar) Install:  
-> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/tree/149624b86a010b5364dcb92a90f3a9e68f70f695/Automatic%20Installers/Linux%20etc)
+> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/tree/02032895425020bbc481dde72ef0498992a3021c/Automatic%20Installers/Linux%20etc)
 > 
 > To run the file, you will first need to make it executable, via this command:
 >
