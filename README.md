@@ -68,19 +68,19 @@ Provides a text based interface for controlling the radio, with these feature:
 
     "cwd/internet_radio/Internet Radio/radio.py" # replace cwd with the directory used for installing
 
-Alternatively, you can run it using the installed **Run Files**, which when opened will run the software
-> These can be located at: *cwd/internet_radio/Run Files/Windows/Radio.bat* or *cwd/internet_radio/Run Files/Windows/Radio.sh*
-> # replace cwd with the directory used for installing
-> - E.g. Windows:
+Alternatively, you can run it using the installed **Run Files**, which when opened will run the software  
+> These can be located at (Windows/Linux): *cwd/internet_radio/Run Files/Windows/Radio.bat* or *cwd/internet_radio/Run Files/Windows/Radio.sh*  
+> (replace cwd with the directory used for installing)  
+- E.g. Windows:
 ```
 cd "Downloads/internet_radio/Run Files/Windows"
 Radio.bat
 ```
 >
-> - Linux:
+- E.g. Linux:
 >
 ```
-cd "cwd/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
+cd "Downloads/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
 Radio.sh
 ```
 >   
