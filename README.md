@@ -71,7 +71,7 @@ Provides a text based interface for controlling the radio, with these feature:
 Alternatively, you can run it using the installed **Run Files**, which when opened will run the software  
 > These can be located at (Windows/Linux):
 >
->     *cwd/internet_radio/Run Files/Windows/Radio.bat* or *cwd/internet_radio/Run Files/Windows/Radio.sh*  
+>     cwd/internet_radio/Run Files/Windows/Radio.bat* or *cwd/internet_radio/Run Files/Windows/Radio.sh 
 > (replace cwd with the directory used for installing)
 > 
 > If you can't find the files, use file explorer (admin porvalages are required to see all directories via cmd line (e.g. run cmd prompt as admin))
