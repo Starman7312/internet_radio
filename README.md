@@ -11,8 +11,10 @@ Provides a text based interface for controlling the radio, with these feature:
     • exit - exits playback
 
 Automatic Setup:  
-Windows install can be run by downloading and opening the **windows_installer.bat** file  
-(Browser may try to block download, if you want you can just copy the code and paste into a terminal to run)  
+Windows install can be run by downloading and opening one of the **windows_installer files** located here: https://github.com/Starman7312/internet_radio/tree/9addb45271b1ce3dac4310aadd65fc59991fed74/Automatic%20Installers/Windows  
+• Recommended downloads are **windows_installer.ps1** or **windows_installer.vbs** (as windows_installer.bat is *hard* to download / often blocked)  
+• If you recieve any warnings while trying to download the install files, select keep (they're safe)  
+• You can also just copy the **windows_installer.bat** file contents and paste into a terminal to run  
 
 Manual Setup:  
 • Install **VLC media player** (https://www.videolan.org/vlc/)  
