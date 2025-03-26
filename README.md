@@ -78,6 +78,7 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 > 
 - E.g. Windows:
 ```
+cd user # Replace with user name
 cd "Downloads/internet_radio/Run Files/Windows"
 Radio.bat
 ```
