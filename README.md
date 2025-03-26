@@ -15,12 +15,16 @@ Setup:
 • Install **VLC media player** (https://www.videolan.org/vlc/)  
 • May already be installed in some OS's (e.g. Linux)  
 
-Then:
+Then:  
+• Windows:  
+    ---- Install the vlc python library via this command line:
+    
+    pip install python-vlc
+    
+• Linux or other similar OS:  
+    ---- Install the vlc python library via this command line:
 
-    • Windows:
-        • Install the vlc python library via this command line: pip install python-vlc
-    • Linux or other similar OS:
-        • Install the vlc python library via this command line: sudo apt-install python3-vlc
+    sudo apt-install python3-vlc
         
 • Download both files in the **Internet Radio** folder:  
 
