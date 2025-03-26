@@ -34,7 +34,7 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-# Manual Download Via Command Line
+# Command Line Download
 ## Windows:
 Install the code via these command line instructions:
     
