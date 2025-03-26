@@ -37,7 +37,7 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-## Automatic Setup:  
+## Automatic Download Setup:  
 
 ### Windows Install:  
 > Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/02032895425020bbc481dde72ef0498992a3021c/Automatic%20Installers/Windows)
