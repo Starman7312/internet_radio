@@ -74,7 +74,9 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 > - E.g. Windows:
 > 
 >         cd Downloads
->         cd "/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
+>         cd internet_radio
+>         cd Run Files
+>         cd Windows"
 >         Radio.bat
 >
 > - Linux:
