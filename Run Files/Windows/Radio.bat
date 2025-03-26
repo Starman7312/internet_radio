@@ -1,2 +1,3 @@
-cd ..
-python "radio.py"
+cd ../..
+cd internet_radio/Internet Radio
+python radio.py
