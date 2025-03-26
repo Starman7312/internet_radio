@@ -29,7 +29,7 @@ Provides a text based interface for controlling the radio, with these feature:
 > 
 > To run the file, you will first need to make it executable, via these commands:
 >
->     cd Downloads # Replace with download folder, if not Downloads
+>     cd Downloads # Replace with your download folder, if not Downloads
 >     chmod +x linux_installer.sh  
 > Then just open the file (in the desired install location) and the software will install and run  
 
