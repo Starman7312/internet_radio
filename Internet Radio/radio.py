@@ -17,10 +17,10 @@ class radio:
         self._stations = radio_stations.get  # Reads in all station details
         self._target = ''
         self._station = ''
-        self._volume = 50
 
         self._vlc_instance = vlc.Instance('-q')
         self._vlc_player = self._vlc_instance.media_player_new()
+        self.set_volume(50)
 
     @property
     def tune(self):
@@ -47,7 +47,7 @@ class radio:
     def stop(self):
         """Completely stops playback and streaming of data
         """
-        print('Stopping playback')
+        print('Stopping playback, please wait...')
         self._vlc_player.stop()
 
     @property
@@ -103,7 +103,14 @@ class radio:
 
         opt = 0
         while (opt < 1) or (opt > pos):
-            opt = int(input('\nSelection: '))
+            try:
+                opt = int(input('\nSelection: '))
+                if (opt < 1) or (opt > pos):
+                    print('Error: Enter value between 0 - ' + str(pos))
+
+            except ValueError:
+                print('Error: Enter value between 0 - ' + str(pos))
+                opt = 0
 
         self._stat_type, self._target = self._stations[self._station][opt-1]
 
@@ -136,7 +143,7 @@ class radio:
                 self.connect
 
                 # Queries user to check if playing
-                playing = input('Is it playing? (yes/no): ')
+                playing = input('Is it playing? (y/n): ')
 
                 if playing.lower() not in ['yes', 'y']:
                     print()
@@ -170,67 +177,111 @@ class radio:
         self.attempt_connect
         try:
             command = ''
-            commands = ['tune', 'fine tune',
-                        'stop', 'resume', 'volume', 'exit']
+            commands = ['tune', 'fine tune', 'stop',
+                        'resume', 'volume', 'help', 'exit']
 
             while command.lower() != 'exit':
                 command = ''
 
                 print('\nOptions:')
+                num = 1
                 for c in commands:
-                    print('• ' + c)
+                    print(str(num) + '. ' + c)
+                    num += 1
 
-                while command.lower() not in commands:
-                    command = input('\nCommand: ')
+                first = True
+                while command not in commands:
+                    if command.isdigit():
+                        if (int(command) > 0) and (int(command) < num):
+                            break
 
-                if command == 'stop':
+                    if not first:
+                        print('Unknown Command')
+
+                    command = input('\nCommand: ').lower()
+                    first = False
+
+                if command == 'stop' or command == '3':
                     self.pause
-                elif command == 'resume':
+                elif command == 'resume' or command == '4':
                     self.play
-                elif command == 'volume':
+                elif command == 'volume' or command == '5':
                     print('\nCurrent volume: ' + str(self.get_volume) + '%')
-                    inp = int(input('Please enter volume (0-100): '))
+
+                    loop = True
+                    while loop:
+                        try:
+                            inp = int(input('Please enter volume (0-100): '))
+                            loop = False
+                        except ValueError:
+                            print('Please enter a numeric value\n')
+
                     print('\n' + self.set_volume(inp))
-                elif command == 'tune':
+                elif command == 'tune' or command == '1':
                     print("\nTerminating radio stream\n")
                     self.stop
                     print()
 
                     self._station = ''
                     return True
-                elif command == 'fine tune':
+                elif command == 'fine tune' or command == '2':
                     print()
                     self.fine_tune
+                elif command == 'help' or command == '6':
+                    print('\n• tune - connects to selected station (runs by default on boot of radio.py)' +
+                          '\n• fine tune - allows for selection of specific URL radio stream' +
+                          '\n• stop - stops the current playback' +
+                          '\n• resume - resumes the current playback (live, not from stop point)' +
+                          '\n• volume - allows for radio volume control (application volume level, not speakers)' +
+                          '\n• exit - exits playback' +
+                          '\n• help - lists command details')
+                else:
+                    command = 'exit'
 
-            print("\nTerminating radio stream")
+            print("\nTerminating radio stream\n")
             self.stop
             return False
 
         except KeyboardInterrupt:
-            print("\nTerminating radio stream")
+            print("\nTerminating radio stream\n")
             self.stop
 
-    def main(self):
+    @property
+    def select_station(self):
         """Shell interface that allows for selection of radio station via tune until the user chooses to exit
         """
         run = True
+        length = len(self._station_names)
+
         while run:
             print('Available stations: ')
             self.available_stations
 
+            first = True
             while (self._station not in self._station_names):
                 if self._station.isnumeric():
                     self._station = int(self._station)
 
-                    if (self._station <= len(self._station_names)) and self._station > 0:
+                    if (self._station <= length) and self._station > 0:
                         self._station = self._station_names[self._station-1]
                         break
+                    else:
+                        print('Please enter value between 0 - ' +
+                              str(length) + '\n')
+                elif not first:
+                    print('Unknown station name, check spelling\n')
 
                 self._station = input('Please enter the station to play: ')
+                first = False
             print()
 
             run = self.interface
 
+    def run(self):
+        """Runs radio methods
+        """
+        self.select_station
+
 
 radio_instance = radio()
-radio_instance.main()
+radio_instance.run()
