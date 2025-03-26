@@ -60,7 +60,28 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-# Note:  
+# Running Post-Install:
+• The source python file has now been installed, and can be run  
+• It can be located at:
+
+    "cwd/internet_radio/Internet Radio/radio.py" # replace cwd with install directory parent  
+
+Alternatively, you can run it using the installed **Run Files**, which when opened will run the software
+> These can be located at:
+> - Windows:
+> 
+>         "cwd/internet_radio/Run Files/Windows/Radio.bat" # replace cwd with install directory parent
+>
+> - Linux:
+>
+>        "cwd/internet_radio/Run Files/Windows/Radio.sh" # replace cwd with install directory parent
+>   
+
+**Note: You can create a shortcut to the Run File, to allow for the program to be launched from another location (e.g. Desktop)**
+
+----------------------------------------------------------------------------------------------------
+
+# Notes:  
 • Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
 • Pages such as this are great for finding the radio stations URL's: https://en.everybodywiki.com/List_of_BBC_radio_stream_URLs  
 • Or you can often get them directly from the station or a search for something like: radio stream URL for StationXXXX  
