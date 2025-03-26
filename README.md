@@ -10,47 +10,48 @@ Provides a text based interface for controlling the radio, with these feature:
     • volume - allows for radio volume control (application volume level, not speakers)
     • exit - exits playback
 
-Automatic Setup:  
-Windows install can be run by downloading and opening one of the **windows_installer files** located here: https://github.com/Starman7312/internet_radio/tree/9addb45271b1ce3dac4310aadd65fc59991fed74/Automatic%20Installers/Windows  
-• Recommended downloads are **windows_installer.ps1** or **windows_installer.vbs** (as windows_installer.bat is *hard* to download / often blocked)  
-• If you recieve any warnings while trying to download the install files, select keep (they're safe)  
-• You can also just copy the **windows_installer.bat** file contents and paste into a terminal to run  
+# Dependancy:  
+• Make sure **VLC media player** is downloaded (https://www.videolan.org/vlc/)  
+• May already be installed in some OS's (e.g. Linux)
 
-Manual Setup:  
-• Install **VLC media player** (https://www.videolan.org/vlc/)  
-• May already be installed in some OS's (e.g. Linux)  
+----------------------------------------------------------------------------------------------------
 
-Then:  
-• Windows:  
-    ---- Install the vlc python library via this command line:
+# Automatic Setup:  
+
+## Windows Install:  
+> Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/9addb45271b1ce3dac4310aadd65fc59991fed74/Automatic%20Installers/Windows)
+> 
+> Recommended install file is **windows_installer.vbs** (as other files are more complex to download / run)  
+> If you recieve any warnings while trying to download and/or run the install files, select keep (they're safe) 
+
+## Linux (or similar) Install:  
+> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/tree/149624b86a010b5364dcb92a90f3a9e68f70f695/Automatic%20Installers/Linux%20etc)
+> 
+> To run the file, you will first need to make it executable, via this command:
+>
+>     **chmod +x linux_installer.sh**  
+> Then just open the file (in the desired install location) and the software will install and run  
+
+----------------------------------------------------------------------------------------------------
+
+# Manual Download Via Command Line
+## Windows:
+Install the code via these command line instructions:
     
     pip install python-vlc
+    git clone https://github.com/Starman7312/internet_radio
+    cd internet_radio/Internet Radio
+    python radio.py
     
-• Linux or other similar OS:  
-    ---- Install the vlc python library via this command line:
+## Linux or other similar OS:
+Install the code via these command line instructions:
 
     sudo apt-install python3-vlc
-        
-• Download both files in the **Internet Radio** folder:  
-
-
-• If using git, run this via command line to download
-
     git clone https://github.com/Starman7312/internet_radio
-
-Then navigate to installation:
-
     cd internet_radio/Internet Radio
-
-Then run (Windows Only):
-
-    python radio.py
-
-Then run (Linux etc.):
-
     python3 radio.py
    
-Otherwise, manually download:  
+# Manual Download:  
     • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
     • Then just run the code file named **radio.py** and you should be up and running
 
