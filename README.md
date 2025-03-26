@@ -64,17 +64,17 @@ Provides a text based interface for controlling the radio, with these feature:
 • The source python file has now been installed, and can be run  
 • It can be located at:
 
-    "cwd/internet_radio/Internet Radio/radio.py" # replace cwd with install directory parent  
+    "cwd/internet_radio/Internet Radio/radio.py" # replace cwd with the directory used for installing
 
 Alternatively, you can run it using the installed **Run Files**, which when opened will run the software
 > These can be located at:
 > - Windows:
 > 
->         "cwd/internet_radio/Run Files/Windows/Radio.bat" # replace cwd with install directory parent
+>         "cwd/internet_radio/Run Files/Windows/Radio.bat" # replace cwd with the directory used for installing
 >
 > - Linux:
 >
->        "cwd/internet_radio/Run Files/Windows/Radio.sh" # replace cwd with install directory parent
+>        "cwd/internet_radio/Run Files/Windows/Radio.sh" # replace cwd with the directory used for installing
 >   
 
 **Note: You can create a shortcut to the Run File, to allow for the program to be launched from another location (e.g. Desktop)**
