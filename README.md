@@ -10,6 +10,8 @@ Provides a text based interface for controlling the radio, with these feature:
     • volume - allows for radio volume control (application volume level, not speakers)
     • exit - exits playback
 
+----------------------------------------------------------------------------------------------------
+
 ## Dependancy:  
 • Make sure **VLC media player** is downloaded (https://www.videolan.org/vlc/)  
 • May already be installed in some OS's (e.g. Linux)
