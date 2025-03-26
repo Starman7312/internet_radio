@@ -4,6 +4,7 @@ An internet-streaming based radio player, using the VLC framework to stream the 
 Provides a text based interface for controlling the radio, with these feature:  
 
     • tune - connects to selected station (runs by default on boot of radio.py)
+    • fine tune - allows for selection of specific URL radio stream
     • stop - stops the current playback
     • resume - resumes the current playback (live, not from stop point)
     • volume - allows for radio volume control (application volume level, not speakers)
