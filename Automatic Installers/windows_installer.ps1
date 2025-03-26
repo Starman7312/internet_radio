@@ -1,9 +1,9 @@
-# Install python-vlc
+# Installs python-vlc
 pip install python-vlc
 
-# Clone the repository
+# Clones the repository
 git clone https://github.com/Starman7312/internet_radio
 
-# Navigate to the folder and run the Python script
+# Navigates to the folder and runs the Python script
 Set-Location -Path "internet_radio/Internet Radio"
 python radio.py
