@@ -11,7 +11,7 @@ Provides a text based interface for controlling the radio, with these feature:
     • exit - exits playback
 
 Automatic Setup:  
-Windows install can be run via this batch file: blob:https://github.com/828ebe35-1a39-4f33-8ea1-2b83de28d925
+Windows install can be run by downloading and opening the **windows_installer.bat** file  
 
 Manual Setup:  
 • Install **VLC media player** (https://www.videolan.org/vlc/)  
