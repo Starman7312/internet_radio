@@ -195,6 +195,7 @@ class radio:
                     print("\nTerminating radio stream\n")
                     self.stop
                     print()
+
                     self._station = ''
                     return True
                 elif command == 'fine tune':
