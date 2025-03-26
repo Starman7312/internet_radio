@@ -76,7 +76,7 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 >         cd Downloads
 >         cd internet_radio
 >         cd Run Files
->         cd Windows"
+>         cd Windows
 >         Radio.bat
 >
 > - Linux:
