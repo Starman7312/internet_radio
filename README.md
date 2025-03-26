@@ -27,8 +27,9 @@ Provides a text based interface for controlling the radio, with these feature:
 ## Linux (or similar) Install:  
 > Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/tree/e92258c32b95f6edf25f62e8047b2a816145ccec/Automatic%20Installers/Linux%20(or%20similar))
 > 
-> To run the file, you will first need to make it executable, via this command:
+> To run the file, you will first need to make it executable, via these commands:
 >
+>     cd Downloads # Replace with download folder, if not Downloads
 >     chmod +x linux_installer.sh  
 > Then just open the file (in the desired install location) and the software will install and run  
 
