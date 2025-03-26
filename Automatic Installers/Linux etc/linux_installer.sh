@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Installing python-vlc..."
-sudo apt-install python3-vlc
+sudo apt-get install python3-vlc
 
 echo "Cloning repository..."
 git clone https://github.com/Starman7312/internet_radio
