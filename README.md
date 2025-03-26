@@ -73,10 +73,7 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 > # replace cwd with the directory used for installing
 > - E.g. Windows:
 ```
-cd Downloads
-cd internet_radio
-cd Run Files
-cd Windows
+cd "Downloads/internet_radio/Run Files/Windows"
 Radio.bat
 ```
 >
