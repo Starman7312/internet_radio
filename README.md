@@ -73,12 +73,12 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 > # replace cwd with the directory used for installing
 > - Windows:
 > 
->         "cd /cwd/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
+>         cd "/cwd/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
 >         Radio.bat
 >
 > - Linux:
 >
->        "cwd/internet_radio/Run Files/Windows/Radio.sh" # replace cwd with the directory used for installing
+>        cd "cwd/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
 >         Radio.sh
 >   
 
