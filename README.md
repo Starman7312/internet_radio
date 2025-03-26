@@ -12,6 +12,7 @@ Provides a text based interface for controlling the radio, with these feature:
 
 Automatic Setup:  
 Windows install can be run by downloading and opening the **windows_installer.bat** file  
+(Browser may try to block download, if you want you can just copy the code and paste into a terminal to run)  
 
 Manual Setup:  
 • Install **VLC media player** (https://www.videolan.org/vlc/)  
