@@ -6,5 +6,5 @@ echo "Cloning repository..."
 git clone https://github.com/Starman7312/internet_radio
 
 echo "Navigating and running the script..."
-cd internet_radio/Internet Radio
+cd "internet_radio/Internet Radio"
 python3 radio.py
