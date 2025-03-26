@@ -20,7 +20,7 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ## Command Line Download:
 ### Windows:
-> Install the code via these command line instructions:
+> Install and test the code via these command line instructions:
     
     pip install python-vlc
     git clone https://github.com/Starman7312/internet_radio
@@ -28,7 +28,7 @@ Provides a text based interface for controlling the radio, with these feature:
     python radio.py
     
 ### Linux or other similar OS:
-> Install the code via these command line instructions:
+> Install and test the code via these command line instructions:
 
     sudo apt-install python3-vlc
     git clone https://github.com/Starman7312/internet_radio
