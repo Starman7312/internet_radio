@@ -1,1 +1,5 @@
-These files are for running the software from a single file launch
+These files are for running the software from a single file
+Do not move these files!
+
+If you want to use the software elsewhere without moving the parent folder, create a shortcut to the .bat file
+This can be used to launch from a desktop icon
