@@ -50,7 +50,9 @@ Install the code via these command line instructions:
     git clone https://github.com/Starman7312/internet_radio
     cd internet_radio/Internet Radio
     python3 radio.py
-   
+
+----------------------------------------------------------------------------------------------------
+    
 # Manual Download:  
     • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
     • Then just run the code file named **radio.py** and you should be up and running
