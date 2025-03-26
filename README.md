@@ -18,6 +18,27 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
+# Command Line Download:
+## Windows:
+> Install the code via these command line instructions:
+    
+    pip install python-vlc
+    git clone https://github.com/Starman7312/internet_radio
+    cd internet_radio/Internet Radio
+    python radio.py
+    
+## Linux or other similar OS:
+> Install the code via these command line instructions:
+
+    sudo apt-install python3-vlc
+    git clone https://github.com/Starman7312/internet_radio
+    cd "internet_radio/Internet Radio"
+    python3 radio.py
+
+----------------------------------------------------------------------------------------------------
+
+# Automatic Setup:  
+## Automatic Setup:  
 ## Command Line Download:
 ### Windows:
 > Install and test the code via these command line instructions:
@@ -53,6 +74,22 @@ Provides a text based interface for controlling the radio, with these feature:
 >     cd Downloads # Replace with your download folder, if not Downloads
 >     chmod +x linux_installer.sh  
 > Then just open the file (in the desired install location) and the software will install and run  
+
+----------------------------------------------------------------------------------------------------
+    
+# Manual Download:  
+    pip install python-vlc
+    git clone https://github.com/Starman7312/internet_radio
+    cd internet_radio/Internet Radio
+    python radio.py
+    
+### Linux or other similar OS:
+> Install the code via these command line instructions:
+
+    sudo apt-install python3-vlc
+    git clone https://github.com/Starman7312/internet_radio
+    cd "internet_radio/Internet Radio"
+    python3 radio.py
 
 ----------------------------------------------------------------------------------------------------
     
