@@ -74,11 +74,10 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 >     cwd/internet_radio/Run Files/Windows/Radio.bat* or *cwd/internet_radio/Run Files/Windows/Radio.sh 
 > (replace cwd with the directory used for installing)
 > 
-> If you can't find the files, use file explorer (admin privilages are required to see all directories via cmd line; e.g. run cmd prompt as admin to fix)
+> If you can't find the files, use file explorer (admin privilages may be required to see all directories via cmd line; e.g. run cmd prompt as admin to fix)
 > 
 - E.g. Windows:
 ```
-cd user # Replace with user name
 cd "Downloads/internet_radio/Run Files/Windows"
 Radio.bat
 ```
