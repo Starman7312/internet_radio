@@ -10,21 +10,21 @@ Provides a text based interface for controlling the radio, with these feature:
     • volume - allows for radio volume control (application volume level, not speakers)
     • exit - exits playback
 
-# Dependancy:  
+## Dependancy:  
 • Make sure **VLC media player** is downloaded (https://www.videolan.org/vlc/)  
 • May already be installed in some OS's (e.g. Linux)
 
 ----------------------------------------------------------------------------------------------------
 
-# Automatic Setup:  
+## Automatic Setup:  
 
-## Windows Install:  
+### Windows Install:  
 > Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/02032895425020bbc481dde72ef0498992a3021c/Automatic%20Installers/Windows)
 > 
 > Recommended install file is **windows_installer.vbs** or **windows_installer.ps1** (as .bat file can be difficult to download)  
 > If you recieve any warnings while trying to download and/or run the install files, select keep / run (they're safe) 
 
-## Linux (or similar) Install:  
+### Linux (or similar) Install:  
 > Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/blob/e92258c32b95f6edf25f62e8047b2a816145ccec/Automatic%20Installers/Linux%20(or%20similar)/linux_installer.sh)
 > 
 > To run the file, you will first need to make it executable, via these commands:
@@ -35,8 +35,8 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-# Command Line Download:
-## Windows:
+## Command Line Download:
+### Windows:
 > Install the code via these command line instructions:
     
     pip install python-vlc
@@ -44,7 +44,7 @@ Provides a text based interface for controlling the radio, with these feature:
     cd internet_radio/Internet Radio
     python radio.py
     
-## Linux or other similar OS:
+### Linux or other similar OS:
 > Install the code via these command line instructions:
 
     sudo apt-install python3-vlc
@@ -54,13 +54,13 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
     
-# Manual Download:  
+## Manual Download:  
 > Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
 > Then just run the code file named **radio.py** and you should be up and running
 
 ----------------------------------------------------------------------------------------------------
 
-# Running Post-Install:
+## Running Post-Install:
 • The source python file has now been installed, and can be run  
 • It can be located at:
 
@@ -81,7 +81,7 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 
 ----------------------------------------------------------------------------------------------------
 
-# Notes:  
+## Notes:  
 • Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
 • Pages such as this are great for finding the radio stations URL's: https://en.everybodywiki.com/List_of_BBC_radio_stream_URLs  
 • Or you can often get them directly from the station or a search for something like: radio stream URL for StationXXXX  
