@@ -25,7 +25,7 @@ Provides a text based interface for controlling the radio, with these feature:
 > If you recieve any warnings while trying to download and/or run the install files, select keep / run (they're safe) 
 
 ## Linux (or similar) Install:  
-> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/tree/e92258c32b95f6edf25f62e8047b2a816145ccec/Automatic%20Installers/Linux%20(or%20similar))
+> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/blob/e92258c32b95f6edf25f62e8047b2a816145ccec/Automatic%20Installers/Linux%20(or%20similar)/linux_installer.sh)
 > 
 > To run the file, you will first need to make it executable, via these commands:
 >
