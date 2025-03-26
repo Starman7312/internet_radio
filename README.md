@@ -54,8 +54,8 @@ Provides a text based interface for controlling the radio, with these feature:
 ----------------------------------------------------------------------------------------------------
     
 # Manual Download:  
-> • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
-> • Then just run the code file named **radio.py** and you should be up and running
+> Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
+> Then just run the code file named **radio.py** and you should be up and running
 
 ----------------------------------------------------------------------------------------------------
 
