@@ -10,8 +10,10 @@ Provides a text based interface for controlling the radio, with these feature:
     • volume - allows for radio volume control (application volume level, not speakers)
     • exit - exits playback
 
+Automatic Setup:  
+Windows install can be run via this batch file: blob:https://github.com/b7987f0a-9b2b-412a-90b6-68869f130958  
 
-Setup:  
+Manual Setup:  
 • Install **VLC media player** (https://www.videolan.org/vlc/)  
 • May already be installed in some OS's (e.g. Linux)  
 
