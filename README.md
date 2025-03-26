@@ -34,9 +34,9 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-# Command Line Download
+# Command Line Download:
 ## Windows:
-Install the code via these command line instructions:
+> Install the code via these command line instructions:
     
     pip install python-vlc
     git clone https://github.com/Starman7312/internet_radio
@@ -44,7 +44,7 @@ Install the code via these command line instructions:
     python radio.py
     
 ## Linux or other similar OS:
-Install the code via these command line instructions:
+> Install the code via these command line instructions:
 
     sudo apt-install python3-vlc
     git clone https://github.com/Starman7312/internet_radio
@@ -54,10 +54,12 @@ Install the code via these command line instructions:
 ----------------------------------------------------------------------------------------------------
     
 # Manual Download:  
-    • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
-    • Then just run the code file named **radio.py** and you should be up and running
+> • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
+> • Then just run the code file named **radio.py** and you should be up and running
 
-Note:  
+----------------------------------------------------------------------------------------------------
+
+# Note:  
 • Comes with a few radio stations pre-installed (BBC etc.), but you can add more  
 • Pages such as this are great for finding the radio stations URL's: https://en.everybodywiki.com/List_of_BBC_radio_stream_URLs  
 • Or you can often get them directly from the station or a search for something like: radio stream URL for StationXXXX  
