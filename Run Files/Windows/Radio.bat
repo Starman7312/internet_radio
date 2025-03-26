@@ -1,3 +1,3 @@
 cd ../..
-cd internet_radio/Internet Radio
+cd Internet Radio
 python radio.py
