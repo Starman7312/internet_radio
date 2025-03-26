@@ -1,8 +1,6 @@
 import vlc
 from stations import stations
 
-#Test
-
 class radio:
     def __init__(self):
         """Instantiates object with a list of known stations
