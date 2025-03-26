@@ -72,17 +72,20 @@ Alternatively, you can run it using the installed **Run Files**, which when open
 > These can be located at: *cwd/internet_radio/Run Files/Windows/Radio.bat* or *cwd/internet_radio/Run Files/Windows/Radio.sh*
 > # replace cwd with the directory used for installing
 > - E.g. Windows:
-> 
->         cd Downloads
->         cd internet_radio
->         cd Run Files
->         cd Windows
->         Radio.bat
+```
+cd Downloads
+cd internet_radio
+cd Run Files
+cd Windows
+Radio.bat
+```
 >
 > - Linux:
 >
->        cd "cwd/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
->         Radio.sh
+```
+cd "cwd/internet_radio/Run Files/Windows" # replace cwd with the directory used for installing
+Radio.sh
+```
 >   
 
 **Note: You can create a shortcut to the Run File, to allow for the program to be launched from another location (e.g. Desktop)**
