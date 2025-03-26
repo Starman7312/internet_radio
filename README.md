@@ -29,9 +29,21 @@ Then:
 • Download both files in the **Internet Radio** folder:  
 
 
-• If using git, run this via command line:
+• If using git, run this via command line to download and run:
 
     git clone https://github.com/Starman7312/internet_radio
+
+Then:
+
+    cd internet_radio/Internet Radio
+
+Then (Windows Only):
+
+    python radio.py
+
+Then (Linux etc.):
+
+    python3 radio.py
    
 Otherwise, manually download:  
     • Make sure to have both the **radio.py** and **stations.py** files in the same folder (as radio is dependant on stations)  
