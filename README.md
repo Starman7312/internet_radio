@@ -18,25 +18,6 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-## Automatic Setup:  
-
-### Windows Install:  
-> Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/02032895425020bbc481dde72ef0498992a3021c/Automatic%20Installers/Windows)
-> 
-> Recommended install file is **windows_installer.vbs** or **windows_installer.ps1** (as .bat file can be difficult to download)  
-> If you recieve any warnings while trying to download and/or run the install files, select keep / run (they're safe) 
-
-### Linux (or similar) Install:  
-> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/blob/e92258c32b95f6edf25f62e8047b2a816145ccec/Automatic%20Installers/Linux%20(or%20similar)/linux_installer.sh)
-> 
-> To run the file, you will first need to make it executable, via these commands:
->
->     cd Downloads # Replace with your download folder, if not Downloads
->     chmod +x linux_installer.sh  
-> Then just open the file (in the desired install location) and the software will install and run  
-
-----------------------------------------------------------------------------------------------------
-
 ## Command Line Download:
 ### Windows:
 > Install the code via these command line instructions:
@@ -53,6 +34,25 @@ Provides a text based interface for controlling the radio, with these feature:
     git clone https://github.com/Starman7312/internet_radio
     cd "internet_radio/Internet Radio"
     python3 radio.py
+
+----------------------------------------------------------------------------------------------------
+
+## Automatic Setup:  
+
+### Windows Install:  
+> Can be installed using **windows_installer files** located here: [windows_installer](https://github.com/Starman7312/internet_radio/tree/02032895425020bbc481dde72ef0498992a3021c/Automatic%20Installers/Windows)
+> 
+> Recommended install file is **windows_installer.vbs** or **windows_installer.ps1** (as .bat file can be difficult to download)  
+> If you recieve any warnings while trying to download and/or run the install files, select keep / run (they're safe) 
+
+### Linux (or similar) Install:  
+> Can be installed by downloading the **linux_installer.sh** file, located here: [linux installer](https://github.com/Starman7312/internet_radio/blob/e92258c32b95f6edf25f62e8047b2a816145ccec/Automatic%20Installers/Linux%20(or%20similar)/linux_installer.sh)
+> 
+> To run the file, you will first need to make it executable, via these commands:
+>
+>     cd Downloads # Replace with your download folder, if not Downloads
+>     chmod +x linux_installer.sh  
+> Then just open the file (in the desired install location) and the software will install and run  
 
 ----------------------------------------------------------------------------------------------------
     
