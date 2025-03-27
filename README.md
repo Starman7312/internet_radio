@@ -18,8 +18,8 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-# Command Line Download:
-## Windows:
+## Command Line Download:
+### Windows:
 > Install the code via these command line instructions:
     
     pip install python-vlc
@@ -27,7 +27,7 @@ Provides a text based interface for controlling the radio, with these feature:
     cd internet_radio/Internet Radio
     python radio.py
     
-## Linux or other similar OS:
+### Linux or other similar OS:
 > Install the code via these command line instructions:
 
     sudo apt-install python3-vlc
