@@ -18,7 +18,8 @@ Provides a text based interface for controlling the radio, with these feature:
 
 ----------------------------------------------------------------------------------------------------
 
-## Command Line Download:
+## Command Line Download:  
+**Make sure you have git installed before attempting this**
 ### Windows:
 > Install the code via these command line instructions:
     
